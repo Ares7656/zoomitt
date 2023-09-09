@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    height: 1100px;
+    
+}
+
+@media(max-width:8000px) and (min-width:992px)
+{
+   /* width */
+::-webkit-scrollbar {
+    
+    width: 11px;
+ }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: rgb(36, 35, 35);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 15px;
+    background-color: rgb(167, 166, 166);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(211, 211, 211);
+    
+  }
+  button:hover , button:active , button:focus{
+    outline: 0 !important;
+}
+ 
+}
+@media(max-width:992px) and (min-width:100px)
+{
+       /* width */
+::-webkit-scrollbar {
+    
+    width: 0px;
+ }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: rgb(36, 35, 35);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 15px;
+    background-color: rgb(167, 166, 166);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(211, 211, 211);
+    
+  }
+  button:hover , button:active , button:focus{
+    outline: 0 !important;
+}
+}
+
+
+
+
+.A:hover{
+    color:red ;
+    transition: all 0.2s;
+}
+.btn:hover{
+    opacity: 90%;
+    transition: all 0.2s;
+    
+}
+
+.A{
+    color: whitesmoke;
+    
+}
+.C{
+    cursor: pointer;
+    overflow: hidden;
+}
+.CC{
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.C:hover img{
+    transform: scale(1.1);
+    filter: brightness(70%);
+    
+}
+.card img{
+    transition: all 0.7s ease-in-out;
+}
+
+.BTN{
+    background-color: rgb(54, 54, 54);
+}
+.BTN:hover{
+    background-color: rgb(77, 77, 77);
+}
+.H{
+    height: 100px;
+}
+.T{
+color: rgb(177, 177, 177);
+cursor: pointer;
+}
+.T:hover{
+    color: rgb(73, 73, 73);
+}
+.G{
+    background-color: rgb(32, 32, 32);
+}
+.FONT{
+    font-size: small;
+}
+.Z{
+    z-index: 2;
+}
+.B{
+    background: rgb(44, 44, 44); 
+}
+.RED{
+    color: whitesmoke;
+    
+}
+.RED:hover{
+    color: rgb(255, 55, 55);
+    transition: all 0.3s ease-in-out;  
+}
+img{
+    overflow: hidden;
+   
+}
+.PO{
+    top: 40px;
+    left: 45px;
+}
+.noborder{
+    border: none;
+}
+.box{
+    width: 70px;
+    height: 17px;
+    background-color: grey;
+    border-radius: 20px;
+}
+.dark-bg{
+    background-color: #888;
+}
+.bg{
+    background-image: url(1.jpg);
+}
+.SHIRI{
+    color: rgb(194, 194, 194);
+}
+.w-80{
+    width: 180px;
+}
+.khat{
+    width: 50px;
+    height: 4px;
+    background-color: rgb(216, 0, 0);
+    border-radius: 5px;
+}
+.MARGIN{
+    margin-top: 80px;
+}
+.offcanvas-end{
+    background-color: antiquewhite;
+}
+.box-1{
+    background-color: grey;
+    border-radius: 20px;
+    
+    width: 80px;
+    height: 3px;
+}
+.BORDER{
+    border: 0px !important;
+}
